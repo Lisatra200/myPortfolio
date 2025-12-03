@@ -31,5 +31,177 @@ nav,
 nav{
     justify-content: space-around;
     align-items: center;
-    height: 15vh;
+    height: 20vh;
 }
+
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover{
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+.logo{
+    font-size: 2rem;
+}
+.logo:hover{
+    cursor: default;
+}
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container{
+    display: flex;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section_pic-container{
+  width: 300px;            /* Set the desired width */
+  height: 300px;           /* Set the same height for a perfect circle */
+  overflow: hidden;        /* Hide parts of the image that exceed the container */
+  border-radius: 50%;      /* Makes the container circular */
+  display: flex;
+  margin: auto 0;
+ 
+
+}
+
+.section_text{
+   align-self: center;
+   text-align: center;
+}
+
+.section_text p{
+    font-weight: 600;
+}
+
+.section_text p1{
+    text-align: center;
+}
+
+.section_text p2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.socials-container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.icon {
+ cursor: pointer;
+ height: 2rem;
+ border-radius: 50%;  /* Optional: make it circular */
+ background-color: #f0f0f0; /* Optional: shows empty space behind image */
+}
+
+.btn1 {
+    width: 70px;       /* wider than height */
+    height: 40px;       /* shorter */
+    border-radius: 25px; /* half of height for smooth oval */
+    background: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 70px;       /* wider than height */
+    height: 40px;       /* shorter */
+    border-radius: 25px; /* half of height for smooth oval */
+    background: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: black; /* changes to grey on hover */
+}
+
+.btn1:active {
+    background-color: darkblue; /* clicked color */
+         /* optional: change text color for contrast */
+}
+
+.btn2:hover {
+    background-color: black; /* changes to grey on hover */
+}
+
+.btn:active {
+    background-color: darkblue; /* clicked color */
+         /* optional: change text color for contrast */
+}
+
+/*Abount section*/
+#about{
+    position: relative;
+}
+
+.about_container{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.about_container,
+.about-details-container{
+display: flex;
+}
+
+.about-pic{
+    border-radius: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
